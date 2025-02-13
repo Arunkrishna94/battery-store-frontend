@@ -1,6 +1,6 @@
-import "../app/globals.css";
+import "../styles/globals.css";
 import { AuthProvider } from "../context/AuthContext";
-import { QueryClient, QueryClientProvider } from "@react-query";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const queryClient = new QueryClient();
 

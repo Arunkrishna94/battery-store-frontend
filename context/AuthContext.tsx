@@ -1,6 +1,6 @@
 import { createContext, useState, useEffect } from "react";
 import { api } from "../utils/api";
-import jwtDecode from "jwt-decode";
+import { jwtDecode } from "jwt-decode";
 
 interface User {
   id: number;
